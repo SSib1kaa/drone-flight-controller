@@ -1,0 +1,29 @@
+# Drone Flight Controller Requirements
+# Compatible with Raspberry Pi 4+ and STM32 microcontrollers
+
+# Core dependencies
+RPi.GPIO>=0.7.0
+pygpio>=1.4.0
+
+# Sensor interfacing
+adafruit-circuitpython-bmp280>=3.1.7
+adafruit-circuitpython-bno055>=1.5.0
+adafruit-circuitpython-hmc5883l>=0.4.4
+
+# GPS and navigation
+adafruit-circuitpython-gps>=3.22.0
+geopy>=2.2.0
+
+# Threading and async
+threading-timer>=0.5.0
+
+# Data structures
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Telemetry and communication
+paho-mqtt>=1.6.1
+serialport>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.2
